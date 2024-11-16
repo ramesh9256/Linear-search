@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(128, 128, 128, 0.462);
+    font-size: 50px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+   width: fit-content;
+    text-shadow: -1px -1px 10px gray;
+    
+}
+
+h1:hover {
+    text-shadow: -1px -1px 20px gray;
+    transition: all 1s;
+}
+
+.container {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+input {
+    padding: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: rgb(255, 170, 0);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+
+}
+
+.array {
+   height: 300px;
+   width: 500px;
+   margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+   transform: rotate(180deg);
+   border-top: 5px solid orangered;
+   
+}
+
+.block {
+    padding: 15px 10px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 10px;
+    position: relative;
+    bottom: 0px;
+    transform: rotate(180deg);
+
+}
+.ans{
+    
+   color: wheat;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+}
+@media (max-width : ) {
+    
+}
